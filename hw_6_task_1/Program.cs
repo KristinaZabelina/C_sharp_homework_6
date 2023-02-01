@@ -1,4 +1,7 @@
-﻿int getUserData (string message)
+﻿// Пользователь вводит с клавиатуры M чисел. Посчитайте, сколько чисел больше 0 ввёл пользователь.
+
+
+int getUserData (string message)
 {
     Console.WriteLine(message);
     int UserData = int.Parse(Console.ReadLine()!);
